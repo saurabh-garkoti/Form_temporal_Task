@@ -1,0 +1,28 @@
+{
+  "name": "temporal-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/worker.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/worker.js",
+    "dev": "ts-node src/worker.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@temporalio/client": "^1.12.1",
+    "@temporalio/worker": "^1.12.1",
+    "axios": "^1.11.0",
+    "node-fetch": "^2.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "@types/uuid": "^10.0.0"
+  }
+}

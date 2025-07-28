@@ -1,0 +1,43 @@
+# ---------------------------
+# Node / React (Client side)
+# ---------------------------
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.env.*.local
+client/.DS_Store
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/coverage/
+client/*.tsbuildinfo
+client/.parcel-cache/
+client/.vite/
+
+# ---------------------------
+# .NET Core (Server side)
+# ---------------------------
+server/bin/
+server/obj/
+server/*.user
+server/*.suo
+server/.vs/
+server/Migrations/
+
+
+temporal-worker/node_modules
+
+
+# ---------------------------
+# Global ignores
+# ---------------------------
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
+*.log
+*.lock
+.DS_Store
+Thumbs.db
