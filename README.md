@@ -3,7 +3,7 @@ This is a full-stack web application that allows users to authenticate using OID
 
 ## Tech Stack
 
-- **Frontend:** React, TypeScript, Auth0, Tailwind CSS
+- **Frontend:** React, TypeScript, Auth0, CSS
 - **Backend:** Node.js (Express) or .NET Core Web API
 - **Workflow Orchestration:** [Temporal.io](https://temporal.io)
 - **Database:** SQL Server
